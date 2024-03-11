@@ -1,9 +1,5 @@
-from sign_detection.logger import logging
-from sign_detection.exception import signException
-import sys
-# logging.info("welcom to sign detection project")
+from sign_detection.pipeline.training_pipeline import TrainPipeline
 
-try:
-    a=7/"9"
-except Exception as e:
-    raise signException(e,sys) from e
+obj=TrainPipeline()
+
+obj.run_pipeline()
