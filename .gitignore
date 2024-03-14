@@ -162,4 +162,7 @@ cython_debug/
 log/*
 myenv/*
 artifacts/*
-
+yolov5/*
+remo.py
+valid/*
+gesture/*
